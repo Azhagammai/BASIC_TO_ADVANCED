@@ -121,7 +121,7 @@ public class pattern {
             System.out.println();
         }
     }
-static void pattern11(int n){
+    static void pattern11(int n){
     int start =1;
     for(int i=0;i<n;i++){
         if(i%2==0){
@@ -138,7 +138,7 @@ static void pattern11(int n){
     }
 
 }
-  static void pattern12(int n){
+    static void pattern12(int n){
     int space= 2 * (n-1);
     for(int i=1;i<=n;i++){
         for(int j=1;j<=i;j++){
@@ -160,7 +160,7 @@ static void pattern11(int n){
     }
 
   } 
-static void pattern13(int  n){
+    static void pattern13(int  n){
     int start=1;
     for(int i=1;i<=n;i++){
      
@@ -173,7 +173,7 @@ static void pattern13(int  n){
     }
 
 }
-static void pattern14(int n){
+    static void pattern14(int n){
     // char ch='A';
     for(int i=0;i<n;i++){
         for(int j=0;j<=i;j++){
@@ -184,7 +184,7 @@ static void pattern14(int n){
     }
 
 }
-static void pattern15(int n){
+    static void pattern15(int n){
     char ch='A';
      for(int i=n;i>=0;i--){
         for(int j=0;j<=i;j++){
@@ -193,7 +193,7 @@ static void pattern15(int n){
         System.out.println();
      }
 }
-static void  pattern16(int n){
+    static void  pattern16(int n){
     for(int i=0;i<=n;i++){
         for(int j=0;j<=i;j++){
             System.out.print((char)('A'+i));
@@ -203,7 +203,7 @@ static void  pattern16(int n){
     }
 
 }
-static void pattern17(int n){
+    static void pattern17(int n){
     for(int i=0;i<=n;i++){
         for(int k=0;k<=n-i-1;k++){
             System.out.print(" ");
@@ -244,7 +244,7 @@ static void pattern17(int n){
 
 
 }
-static void pattern18(int n){
+    static void pattern18(int n){
     char ch='A';
     for(int i='A';i>='E';i++){
         for(int j=0;j<=i;j++){
@@ -284,6 +284,4 @@ public static void main(String[] args) {
             pattern18(n);
 
         // }
-    }
-    
-}
+    }}
